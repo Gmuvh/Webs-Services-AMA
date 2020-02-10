@@ -19,3 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('show/{id}', 'SatController@show');
 Route::get('getall', 'SatController@getall');
+Route::get('getexpe/{id}', 'ProceedingsController@getProceedings');
